@@ -1,0 +1,36 @@
+{
+    "name": "SIAPRIAT · Insulini",
+    "short_name": "Insulini",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F6F2EB",
+    "theme_color": "#0F6E62",
+    "description": "SIAPRIAT: seguimiento de alimentación para personas con diabetes en la región Wixárika de Jalisco. Prototipo de demostración, Hackathon Jalisco 2026.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "lang": "es-MX"
+}

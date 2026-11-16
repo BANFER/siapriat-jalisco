@@ -1,0 +1,20 @@
+{
+ "_leeme": "Zona piloto PROVISIONAL. Se cambia aquí o con --dart-define=MUNICIPIO_PILOTO_CLAVE=xxx. No presentar como zona de alta prevalencia sin datos oficiales que lo demuestren.",
+ "entidad_clave": "14",
+ "entidad": "Jalisco",
+ "municipio_clave": "061",
+ "municipio": "Mezquitic",
+ "provisional": true,
+ "idiomas": [
+  {
+   "codigo": "es",
+   "nombre": "Español",
+   "estado": "disponible"
+  },
+  {
+   "codigo": "hch",
+   "nombre": "Wixárika",
+   "estado": "en_revision"
+  }
+ ]
+}

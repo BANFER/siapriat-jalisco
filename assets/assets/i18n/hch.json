@@ -1,0 +1,12 @@
+{
+ "_leeme": [
+  "Traducciones al wixárika (código ISO 639-3: hch).",
+  "REGLA: aquí solo entran textos revisados por hablantes de la comunidad piloto.",
+  "Cada entrada usa como llave el texto en español tal como aparece en la app.",
+  "Mientras 'revisado' no sea true, la app muestra el español.",
+  "Formato: \"Texto en español\": {\"texto\": \"...\", \"revisado\": true, \"revisado_por\": \"nombre o iniciales\", \"fecha\": \"AAAA-MM-DD\"}"
+ ],
+ "idioma": "hch",
+ "nombre": "Wixárika",
+ "textos": {}
+}

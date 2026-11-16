@@ -1,0 +1,686 @@
+{
+ "fuente": {
+  "id": "demo-sintetica",
+  "nombre": "Tabla sintética de demostración (NO es una fuente oficial)",
+  "institucion": "Equipo del prototipo",
+  "version": "demo-0.1",
+  "fecha": "2026-11-11",
+  "url": "",
+  "es_demo": true,
+  "nota": "Valores inventados y redondeados SOLO para mostrar cómo se vería la función. No usarlos para decidir qué comer. Antes de un piloto hay que sustituirlos por una tabla oficial de composición de alimentos (ver docs/DATOS_PUBLICOS.md)."
+ },
+ "alimentos": [
+  {
+   "id": "tortilla_maiz",
+   "nombre": "Tortilla de maíz",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 65,
+    "carbohidratos_g": 14,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "tortilla_harina",
+   "nombre": "Tortilla de harina",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 95,
+    "carbohidratos_g": 16,
+    "azucares_g": 1
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "arroz_cocido",
+   "nombre": "Arroz cocido",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 200,
+    "carbohidratos_g": 44,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "pan_caja",
+   "nombre": "Pan de caja",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 75,
+    "carbohidratos_g": 14,
+    "azucares_g": 2
+   },
+   "porciones": [
+    {
+     "clave": "rebanada",
+     "etiqueta": "rebanada",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "pan_dulce",
+   "nombre": "Pan dulce",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 250,
+    "carbohidratos_g": 38,
+    "azucares_g": 14
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "avena_cocida",
+   "nombre": "Avena cocida con agua",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 150,
+    "carbohidratos_g": 27,
+    "azucares_g": 1
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "papa_cocida",
+   "nombre": "Papa cocida",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 130,
+    "carbohidratos_g": 30,
+    "azucares_g": 2
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza mediana",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "elote",
+   "nombre": "Elote cocido",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 120,
+    "carbohidratos_g": 27,
+    "azucares_g": 5
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "frijoles_olla",
+   "nombre": "Frijoles de la olla",
+   "grupo": "Leguminosas",
+   "base": {
+    "energia_kcal": 220,
+    "carbohidratos_g": 40,
+    "azucares_g": 1
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "lentejas",
+   "nombre": "Lentejas cocidas",
+   "grupo": "Leguminosas",
+   "base": {
+    "energia_kcal": 230,
+    "carbohidratos_g": 40,
+    "azucares_g": 3
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "nopales",
+   "nombre": "Nopales cocidos",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25,
+    "carbohidratos_g": 5,
+    "azucares_g": 2
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "calabacitas",
+   "nombre": "Calabacitas cocidas",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 30,
+    "carbohidratos_g": 6,
+    "azucares_g": 3
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "jitomate",
+   "nombre": "Jitomate",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 20,
+    "carbohidratos_g": 5,
+    "azucares_g": 3
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "ensalada_verde",
+   "nombre": "Ensalada de lechuga y verduras",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 35,
+    "carbohidratos_g": 7,
+    "azucares_g": 3
+   },
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "sopa_verduras",
+   "nombre": "Sopa de verduras",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 90,
+    "carbohidratos_g": 15,
+    "azucares_g": 5
+   },
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "manzana",
+   "nombre": "Manzana",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 95,
+    "carbohidratos_g": 25,
+    "azucares_g": 19
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "platano",
+   "nombre": "Plátano",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 105,
+    "carbohidratos_g": 27,
+    "azucares_g": 14
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "naranja",
+   "nombre": "Naranja",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 60,
+    "carbohidratos_g": 15,
+    "azucares_g": 12
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "papaya",
+   "nombre": "Papaya picada",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 60,
+    "carbohidratos_g": 15,
+    "azucares_g": 11
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "huevo",
+   "nombre": "Huevo",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 75,
+    "carbohidratos_g": 1,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "pollo",
+   "nombre": "Pollo cocido o asado",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 165,
+    "carbohidratos_g": 0,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza (tamaño de la palma)",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "carne_res",
+   "nombre": "Carne de res asada",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 220,
+    "carbohidratos_g": 0,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza (tamaño de la palma)",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "atun",
+   "nombre": "Atún en agua",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 100,
+    "carbohidratos_g": 0,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "lata",
+     "etiqueta": "lata",
+     "factor": 1
+    },
+    {
+     "clave": "media_lata",
+     "etiqueta": "media lata",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "queso_fresco",
+   "nombre": "Queso fresco",
+   "grupo": "Lácteos",
+   "base": {
+    "energia_kcal": 80,
+    "carbohidratos_g": 1,
+    "azucares_g": 1
+   },
+   "porciones": [
+    {
+     "clave": "rebanada",
+     "etiqueta": "rebanada",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "leche",
+   "nombre": "Leche",
+   "grupo": "Lácteos",
+   "base": {
+    "energia_kcal": 150,
+    "carbohidratos_g": 12,
+    "azucares_g": 12
+   },
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    },
+    {
+     "clave": "medio_vaso",
+     "etiqueta": "medio vaso",
+     "factor": 0.5
+    }
+   ]
+  },
+  {
+   "id": "aguacate",
+   "nombre": "Aguacate",
+   "grupo": "Grasas",
+   "base": {
+    "energia_kcal": 110,
+    "carbohidratos_g": 6,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "mitad",
+     "etiqueta": "mitad",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "agua_simple",
+   "nombre": "Agua simple",
+   "grupo": "Bebidas",
+   "base": {
+    "energia_kcal": 0,
+    "carbohidratos_g": 0,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "cafe_sin_azucar",
+   "nombre": "Café sin azúcar",
+   "grupo": "Bebidas",
+   "base": {
+    "energia_kcal": 5,
+    "carbohidratos_g": 0,
+    "azucares_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "agua_fruta",
+   "nombre": "Agua de fruta con azúcar",
+   "grupo": "Bebidas",
+   "base": {
+    "energia_kcal": 90,
+    "carbohidratos_g": 23,
+    "azucares_g": 22
+   },
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "refresco",
+   "nombre": "Refresco",
+   "grupo": "Bebidas",
+   "base": {
+    "energia_kcal": 140,
+    "carbohidratos_g": 36,
+    "azucares_g": 36
+   },
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    },
+    {
+     "clave": "lata",
+     "etiqueta": "lata",
+     "factor": 1.5
+    }
+   ]
+  },
+  {
+   "id": "atole",
+   "nombre": "Atole",
+   "grupo": "Bebidas",
+   "base": {
+    "energia_kcal": 180,
+    "carbohidratos_g": 35,
+    "azucares_g": 22
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "tamal",
+   "nombre": "Tamal",
+   "grupo": "Platillos",
+   "base": {
+    "energia_kcal": 280,
+    "carbohidratos_g": 32,
+    "azucares_g": 3
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "pozole",
+   "nombre": "Pozole",
+   "grupo": "Platillos",
+   "base": {
+    "energia_kcal": 330,
+    "carbohidratos_g": 35,
+    "azucares_g": 3
+   },
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "caldo_pollo",
+   "nombre": "Caldo de pollo con verduras",
+   "grupo": "Platillos",
+   "base": {
+    "energia_kcal": 180,
+    "carbohidratos_g": 12,
+    "azucares_g": 4
+   },
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "quesadilla",
+   "nombre": "Quesadilla de maíz con queso",
+   "grupo": "Platillos",
+   "base": {
+    "energia_kcal": 190,
+    "carbohidratos_g": 16,
+    "azucares_g": 1
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  },
+  {
+   "id": "taco_guisado",
+   "nombre": "Taco de guisado",
+   "grupo": "Platillos",
+   "base": {
+    "energia_kcal": 180,
+    "carbohidratos_g": 16,
+    "azucares_g": 1
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ]
+  }
+ ]
+}
