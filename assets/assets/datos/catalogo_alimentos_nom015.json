@@ -1,0 +1,1355 @@
+{
+ "fuente": {
+  "id": "nom-015-ssa2-2010-apendice-b",
+  "nombre": "NOM-015-SSA2-2010, Apéndice normativo B (sistema de equivalentes)",
+  "institucion": "Secretaría de Salud · Diario Oficial de la Federación",
+  "version": "2010",
+  "fecha": "2010-11-23",
+  "url": "https://dof.gob.mx/normasOficiales/4215/salud/salud.htm",
+  "es_demo": false,
+  "nota": "Valores PROMEDIO por equivalente del sistema de equivalentes de la NOM-015 (energía y carbohidratos). Son aproximados, no una medición del platillo. Los alimentos que la NOM no incluye quedan sin dato y no se suman. La NOM no publica azúcares por alimento."
+ },
+ "alimentos": [
+  {
+   "id": "tortilla_maiz",
+   "nombre": "Tortilla de maíz",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 70.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Tortilla de maíz: 1 pieza = 1 equivalente",
+   "equivalentes": "1 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "tortilla_harina",
+   "nombre": "Tortilla de harina",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 140,
+    "carbohidratos_g": 30
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Tortilla de harina: ½ pieza = 1 equivalente",
+   "equivalentes": "2 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "bolillo",
+   "nombre": "Bolillo sin migajón",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 210,
+    "carbohidratos_g": 45
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "tercio",
+     "etiqueta": "1/3 de pieza",
+     "factor": 0.3333333333333333
+    }
+   ],
+   "referencia": "Bolillo sin migajón: 1/3 pieza = 1 equivalente",
+   "equivalentes": "3 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "pan_caja",
+   "nombre": "Pan de caja",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 70.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "rebanada",
+     "etiqueta": "rebanada",
+     "factor": 1
+    }
+   ],
+   "referencia": "Pan de caja (blanco, tostado, integral): 1 rebanada = 1 equivalente",
+   "equivalentes": "1 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "arroz_cocido",
+   "nombre": "Arroz cocido",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 140,
+    "carbohidratos_g": 30
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Arroz cocido: ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "sopa_pasta",
+   "nombre": "Sopa de pasta cocida",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 140,
+    "carbohidratos_g": 30
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Sopa de pasta cocida: ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "avena_hojuelas",
+   "nombre": "Avena en hojuelas (medida antes de cocinar)",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 70.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "tercio_taza",
+     "etiqueta": "1/3 de taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Avena en hojuelas: 1/3 taza = 1 equivalente",
+   "equivalentes": "1 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "papa_cocida",
+   "nombre": "Papa cocida",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 140,
+    "carbohidratos_g": 30
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Papa: ½ pieza = 1 equivalente",
+   "equivalentes": "2 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "pure_papa",
+   "nombre": "Puré de papa sin grasa",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 140,
+    "carbohidratos_g": 30
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Papa en puré (sin grasa): ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "galletas_marias",
+   "nombre": "Galletas Marías",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 70.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "cuatro",
+     "etiqueta": "4 galletas",
+     "factor": 1
+    }
+   ],
+   "referencia": "Galletas Marías: 4 piezas = 1 equivalente",
+   "equivalentes": "1 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "palomitas",
+   "nombre": "Palomitas caseras sin grasa",
+   "grupo": "Cereales y tubérculos",
+   "base": {
+    "energia_kcal": 70.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "porcion",
+     "etiqueta": "2½ tazas",
+     "factor": 1
+    }
+   ],
+   "referencia": "Palomitas caseras sin grasa: 2½ tazas = 1 equivalente",
+   "equivalentes": "1 eq. cereales y tubérculos sin grasa"
+  },
+  {
+   "id": "elote",
+   "nombre": "Elote cocido",
+   "grupo": "Cereales y tubérculos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "pan_dulce",
+   "nombre": "Pan dulce",
+   "grupo": "Cereales y tubérculos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "frijoles_olla",
+   "nombre": "Frijoles de la olla",
+   "grupo": "Leguminosas",
+   "base": {
+    "energia_kcal": 240,
+    "carbohidratos_g": 40
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Frijol: ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. leguminosas"
+  },
+  {
+   "id": "lentejas",
+   "nombre": "Lentejas cocidas",
+   "grupo": "Leguminosas",
+   "base": {
+    "energia_kcal": 240,
+    "carbohidratos_g": 40
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Lenteja: ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. leguminosas"
+  },
+  {
+   "id": "garbanzo",
+   "nombre": "Garbanzo cocido",
+   "grupo": "Leguminosas",
+   "base": {
+    "energia_kcal": 240,
+    "carbohidratos_g": 40
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Garbanzo: ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. leguminosas"
+  },
+  {
+   "id": "habas",
+   "nombre": "Habas cocidas",
+   "grupo": "Leguminosas",
+   "base": {
+    "energia_kcal": 240,
+    "carbohidratos_g": 40
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Haba: ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. leguminosas"
+  },
+  {
+   "id": "nopales",
+   "nombre": "Nopales cocidos",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25.0,
+    "carbohidratos_g": 4.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Nopales: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. verduras"
+  },
+  {
+   "id": "calabacitas",
+   "nombre": "Calabacita",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25.0,
+    "carbohidratos_g": 4.0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Calabacitas: 1 pieza = 1 equivalente",
+   "equivalentes": "1 eq. verduras"
+  },
+  {
+   "id": "jitomate",
+   "nombre": "Jitomate",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25.0,
+    "carbohidratos_g": 4.0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Jitomate: 1 pieza = 1 equivalente",
+   "equivalentes": "1 eq. verduras"
+  },
+  {
+   "id": "lechuga",
+   "nombre": "Lechuga",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25.0,
+    "carbohidratos_g": 4.0
+   },
+   "porciones": [
+    {
+     "clave": "tres_tazas",
+     "etiqueta": "3 tazas",
+     "factor": 1
+    }
+   ],
+   "referencia": "Lechuga: 3 tazas = 1 equivalente",
+   "equivalentes": "1 eq. verduras"
+  },
+  {
+   "id": "chayote",
+   "nombre": "Chayote cocido",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 50,
+    "carbohidratos_g": 8
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Chayote: ½ taza = 1 equivalente",
+   "equivalentes": "2 eq. verduras"
+  },
+  {
+   "id": "ejotes",
+   "nombre": "Ejotes cocidos",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25.0,
+    "carbohidratos_g": 4.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Ejote: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. verduras"
+  },
+  {
+   "id": "pepino",
+   "nombre": "Pepino",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25.0,
+    "carbohidratos_g": 4.0
+   },
+   "porciones": [
+    {
+     "clave": "taza_y_media",
+     "etiqueta": "1½ tazas",
+     "factor": 1
+    }
+   ],
+   "referencia": "Pepino: 1½ taza = 1 equivalente",
+   "equivalentes": "1 eq. verduras"
+  },
+  {
+   "id": "chile_poblano",
+   "nombre": "Chile poblano",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 50,
+    "carbohidratos_g": 8
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Chile poblano: ½ pieza = 1 equivalente",
+   "equivalentes": "2 eq. verduras"
+  },
+  {
+   "id": "verdolagas",
+   "nombre": "Verdolagas",
+   "grupo": "Verduras",
+   "base": {
+    "energia_kcal": 25.0,
+    "carbohidratos_g": 4.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Verdolagas: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. verduras"
+  },
+  {
+   "id": "sopa_verduras",
+   "nombre": "Sopa de verduras",
+   "grupo": "Verduras",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "manzana",
+   "nombre": "Manzana",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 60.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza pequeña",
+     "factor": 1
+    }
+   ],
+   "referencia": "Manzana: 1 pieza pequeña = 1 equivalente",
+   "equivalentes": "1 eq. frutas"
+  },
+  {
+   "id": "platano",
+   "nombre": "Plátano",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 120,
+    "carbohidratos_g": 30
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Plátano: ½ pieza = 1 equivalente",
+   "equivalentes": "2 eq. frutas"
+  },
+  {
+   "id": "naranja",
+   "nombre": "Naranja en gajos",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 60.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Naranja en gajos: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. frutas"
+  },
+  {
+   "id": "mandarina",
+   "nombre": "Mandarina",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 30.0,
+    "carbohidratos_g": 7.5
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Mandarina: 2 piezas = 1 equivalente",
+   "equivalentes": "0.5 eq. frutas"
+  },
+  {
+   "id": "papaya",
+   "nombre": "Papaya picada",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 90.0,
+    "carbohidratos_g": 22.5
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Papaya picada: 2/3 taza = 1 equivalente",
+   "equivalentes": "1.5 eq. frutas"
+  },
+  {
+   "id": "mango",
+   "nombre": "Mango",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 120,
+    "carbohidratos_g": 30
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    },
+    {
+     "clave": "media_pieza",
+     "etiqueta": "media pieza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Mango: ½ pieza = 1 equivalente",
+   "equivalentes": "2 eq. frutas"
+  },
+  {
+   "id": "guayaba",
+   "nombre": "Guayaba",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 30.0,
+    "carbohidratos_g": 7.5
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Guayaba: 2 piezas = 1 equivalente",
+   "equivalentes": "0.5 eq. frutas"
+  },
+  {
+   "id": "sandia",
+   "nombre": "Sandía picada",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 60.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Sandía: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. frutas"
+  },
+  {
+   "id": "melon",
+   "nombre": "Melón picado",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 60.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Melón: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. frutas"
+  },
+  {
+   "id": "pina",
+   "nombre": "Piña picada",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 80.0,
+    "carbohidratos_g": 20.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Piña: ¾ taza = 1 equivalente",
+   "equivalentes": "1.33333 eq. frutas"
+  },
+  {
+   "id": "fresas",
+   "nombre": "Fresas",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 60.0,
+    "carbohidratos_g": 15.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Fresas: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. frutas"
+  },
+  {
+   "id": "tuna",
+   "nombre": "Tuna",
+   "grupo": "Frutas",
+   "base": {
+    "energia_kcal": 30.0,
+    "carbohidratos_g": 7.5
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Tuna: 2 piezas = 1 equivalente",
+   "equivalentes": "0.5 eq. frutas"
+  },
+  {
+   "id": "pollo",
+   "nombre": "Pollo sin piel, cocido",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g40",
+     "etiqueta": "40 g",
+     "factor": 1
+    },
+    {
+     "clave": "g80",
+     "etiqueta": "80 g",
+     "factor": 2
+    },
+    {
+     "clave": "g120",
+     "etiqueta": "120 g",
+     "factor": 3
+    }
+   ],
+   "referencia": "Aves (carne sin piel): 40 gramos = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "carne_res",
+   "nombre": "Carne de res magra (bistec, cecina, aguayón)",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g40",
+     "etiqueta": "40 g",
+     "factor": 1
+    },
+    {
+     "clave": "g80",
+     "etiqueta": "80 g",
+     "factor": 2
+    },
+    {
+     "clave": "g120",
+     "etiqueta": "120 g",
+     "factor": 3
+    }
+   ],
+   "referencia": "Res: aguayón, bistec, cecina, etc.: 40 gramos = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "cerdo_maciza",
+   "nombre": "Cerdo (maciza)",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g40",
+     "etiqueta": "40 g",
+     "factor": 1
+    },
+    {
+     "clave": "g80",
+     "etiqueta": "80 g",
+     "factor": 2
+    }
+   ],
+   "referencia": "Cerdo, maciza: 40 gramos = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "pescado",
+   "nombre": "Pescado fresco",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g30",
+     "etiqueta": "30 g",
+     "factor": 1
+    },
+    {
+     "clave": "g90",
+     "etiqueta": "90 g",
+     "factor": 3
+    }
+   ],
+   "referencia": "Pescado (fresco o congelado): 30 gramos = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "atun",
+   "nombre": "Atún en agua (escurrido)",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g30",
+     "etiqueta": "30 g",
+     "factor": 1
+    },
+    {
+     "clave": "g60",
+     "etiqueta": "60 g",
+     "factor": 2
+    }
+   ],
+   "referencia": "Atún enlatado en agua (escurrido): 30 gramos = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "queso_fresco",
+   "nombre": "Queso fresco o panela",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g30",
+     "etiqueta": "30 g",
+     "factor": 1
+    },
+    {
+     "clave": "g60",
+     "etiqueta": "60 g",
+     "factor": 2
+    }
+   ],
+   "referencia": "Queso fresco de vaca o panela: 30 gramos = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "jamon_pavo",
+   "nombre": "Jamón de pavo",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g40",
+     "etiqueta": "40 g",
+     "factor": 1
+    }
+   ],
+   "referencia": "Jamón de pavo: 40 gramos = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "claras_huevo",
+   "nombre": "Claras de huevo",
+   "grupo": "Alimentos de origen animal",
+   "base": {
+    "energia_kcal": 55.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "dos",
+     "etiqueta": "2 claras",
+     "factor": 1
+    }
+   ],
+   "referencia": "Claras de huevo: 2 piezas = 1 equivalente",
+   "equivalentes": "1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "huevo",
+   "nombre": "Huevo entero",
+   "grupo": "Alimentos de origen animal",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "leche",
+   "nombre": "Leche entera",
+   "grupo": "Lácteos",
+   "base": {
+    "energia_kcal": 150.0,
+    "carbohidratos_g": 12.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza (240 ml)",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "DERIVADO: B(1) da la composición de 1 equivalente de leche entera (150 kcal, 12 g); la porción de 1 taza (240 ml) se toma de la leche descremada de B(3), que es la única porción de leche que publica la norma",
+   "equivalentes": "1 eq. leche entera"
+  },
+  {
+   "id": "leche_descremada",
+   "nombre": "Leche descremada",
+   "grupo": "Lácteos",
+   "base": {
+    "energia_kcal": 95.0,
+    "carbohidratos_g": 12.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza (240 ml)",
+     "factor": 1
+    },
+    {
+     "clave": "media_taza",
+     "etiqueta": "media taza",
+     "factor": 0.5
+    }
+   ],
+   "referencia": "Leche líquida descremada: 1 taza (240 ml) = 1 equivalente",
+   "equivalentes": "1 eq. leche descremada"
+  },
+  {
+   "id": "yogur_natural",
+   "nombre": "Yogur natural sin azúcar, descremado",
+   "grupo": "Lácteos",
+   "base": {
+    "energia_kcal": 95.0,
+    "carbohidratos_g": 12.0
+   },
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Yogurt natural sin azúcar, descremado: 1 taza = 1 equivalente",
+   "equivalentes": "1 eq. leche descremada"
+  },
+  {
+   "id": "aguacate",
+   "nombre": "Aguacate",
+   "grupo": "Grasas",
+   "base": {
+    "energia_kcal": 45.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "tercio",
+     "etiqueta": "1/3 de pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "Aguacate: 1/3 pieza = 1 equivalente",
+   "equivalentes": "1 eq. aceites y grasas sin proteína"
+  },
+  {
+   "id": "aceite",
+   "nombre": "Aceite vegetal",
+   "grupo": "Grasas",
+   "base": {
+    "energia_kcal": 45.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "cdita",
+     "etiqueta": "cucharadita",
+     "factor": 1
+    }
+   ],
+   "referencia": "Aceites (cártamo, maíz, soya, girasol, cánola, oliva): 1 cucharadita = 1 equivalente",
+   "equivalentes": "1 eq. aceites y grasas sin proteína"
+  },
+  {
+   "id": "cacahuates",
+   "nombre": "Cacahuates",
+   "grupo": "Grasas",
+   "base": {
+    "energia_kcal": 45.0,
+    "carbohidratos_g": 0.0
+   },
+   "porciones": [
+    {
+     "clave": "g18",
+     "etiqueta": "18 g",
+     "factor": 1
+    }
+   ],
+   "referencia": "Cacahuates: 18 gramos = 1 equivalente",
+   "equivalentes": "1 eq. aceites y grasas sin proteína"
+  },
+  {
+   "id": "agua_simple",
+   "nombre": "Agua simple",
+   "grupo": "Bebidas",
+   "base": {
+    "energia_kcal": 0,
+    "carbohidratos_g": 0
+   },
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    }
+   ],
+   "referencia": "El agua simple no aporta energía ni carbohidratos.",
+   "equivalentes": ""
+  },
+  {
+   "id": "cafe_sin_azucar",
+   "nombre": "Café sin azúcar",
+   "grupo": "Bebidas",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "agua_fruta",
+   "nombre": "Agua de fruta con azúcar",
+   "grupo": "Bebidas",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "refresco",
+   "nombre": "Refresco",
+   "grupo": "Bebidas",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    },
+    {
+     "clave": "lata",
+     "etiqueta": "lata",
+     "factor": 1.5
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "atole",
+   "nombre": "Atole",
+   "grupo": "Bebidas",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "taza",
+     "etiqueta": "taza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "tejuino",
+   "nombre": "Tejuino",
+   "grupo": "Bebidas",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "vaso",
+     "etiqueta": "vaso",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "quesadilla",
+   "nombre": "Quesadilla (1 tortilla de maíz y 30 g de queso fresco)",
+   "grupo": "Platillos",
+   "base": {
+    "energia_kcal": 125,
+    "carbohidratos_g": 15
+   },
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "DERIVADO: suma de dos líneas de la NOM: 1 tortilla de maíz (1 eq. cereal) + 30 g de queso fresco (1 eq. origen animal bajo en grasa). Una quesadilla más grande o con otro relleno tiene otro valor",
+   "equivalentes": "1 eq. cereales y tubérculos sin grasa + 1 eq. productos de origen animal bajos en grasa"
+  },
+  {
+   "id": "taco_guisado",
+   "nombre": "Taco de guisado",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "tamal",
+   "nombre": "Tamal",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "pozole",
+   "nombre": "Pozole",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "birria",
+   "nombre": "Birria",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "torta_ahogada",
+   "nombre": "Torta ahogada",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "carne_en_su_jugo",
+   "nombre": "Carne en su jugo",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "chilaquiles",
+   "nombre": "Chilaquiles",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "enchiladas",
+   "nombre": "Enchiladas",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "pieza",
+     "etiqueta": "pieza",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  },
+  {
+   "id": "caldo_pollo",
+   "nombre": "Caldo de pollo con verduras",
+   "grupo": "Platillos",
+   "base": {},
+   "porciones": [
+    {
+     "clave": "plato",
+     "etiqueta": "plato",
+     "factor": 1
+    }
+   ],
+   "referencia": "La NOM-015 no trae este alimento o platillo: sin dato oficial.",
+   "equivalentes": ""
+  }
+ ]
+}
